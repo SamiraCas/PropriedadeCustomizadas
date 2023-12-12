@@ -1,18 +1,18 @@
 :root{
-  --roxo: #84e;
+  --cor-primario: #84e;
   --borda: 4px solid blue;
   --fonte-grade: 3rem;
 }
 
 h1{
   font-size: var(--fonte-grade);
-  color: var(--roxo);
+  color: var(--cor-primario);
 }
 
 p{
-  --roxo: #222;
+  --cor-primario: #222;
   font-size: calc(var(--fonte-grade) /2) ;
   margin-top: var(--fonte-grade);
-  color: var(--roxo);
+  color: var(--cor-primario);
   border: var(--borda);
 }
